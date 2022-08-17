@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^10.6.0",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1"
   },
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/e2e/Steps/**/"
