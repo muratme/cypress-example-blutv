@@ -6,6 +6,6 @@ module.exports = defineConfig({
       return require('./cypress/plugins/index')(on, config)
     },
     specPattern:'cypress/e2e/BDD-Features',
-    excludeSpecPattern: ['*.js', '*.md']
+    excludeSpecPattern: ['*.js', '*.md',]
   },
 });
